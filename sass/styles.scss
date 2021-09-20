@@ -1,0 +1,49 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: rgb(255, 255, 255);
+}
+.titulo{
+    color: $colorTitulo;
+    font-family: $fontTitulo;
+    text-transform: $transformTitulo;
+}
+.parrafo{
+    font-family: $fontParrafo;
+    font-size: $sizeParrafo;
+    text-transform: $transformTitulo;
+}
+.imgIn{
+    width: $widthImg;
+    margin-left: $marginleftImg;
+}
+.carta{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.container__lista{
+    list-style-position: inside;
+}
+.borde{
+    border: dotted #d46217 2px;
+}
+.lista{
+    list-style: none;
+    margin-left: 150px;
+}
+.cita{
+    text-decoration: none;
+}
+.formPelu{
+    border: solid rgba(0, 0, 0, 0.342) 1px;
+    width: 60%;
+    margin-right: 0;
+}

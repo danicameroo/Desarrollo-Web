@@ -1,0 +1,28 @@
+nav{
+    z-index: 10;
+}
+.menu{
+    height: 50px;
+    background: #ececec;
+}
+.menu a:hover{
+    background: #f0975c;
+    height: 50px;
+    transition: .6s;
+}
+.navbar-collapse{
+    justify-content: space-evenly;
+}
+.nav-item{
+    background: #ececec;
+}
+.logoIndex{
+    width: 15%;
+}
+.logoPages{
+    width: 120px;
+    height: 120px;
+}
+.logo{
+    width: 30%;
+}

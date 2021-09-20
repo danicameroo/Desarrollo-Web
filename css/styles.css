@@ -1,0 +1,100 @@
+nav {
+  z-index: 10;
+}
+
+.menu {
+  height: 50px;
+  background: #ececec;
+}
+
+.menu a:hover {
+  background: #f0975c;
+  height: 50px;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-item {
+  background: #ececec;
+}
+
+.logoIndex {
+  width: 15%;
+}
+
+.logoPages {
+  width: 120px;
+  height: 120px;
+}
+
+.logo {
+  width: 30%;
+}
+
+.pie {
+  border-top: 2px #f59236 solid;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body {
+  background-color: white;
+}
+
+.titulo {
+  color: #d46217;
+  font-family: "STIX Two Text", serif;
+  text-transform: capitalize;
+}
+
+.parrafo {
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.imgIn {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.carta {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.container__lista {
+  list-style-position: inside;
+}
+
+.borde {
+  border: dotted #d46217 2px;
+}
+
+.lista {
+  list-style: none;
+  margin-left: 150px;
+}
+
+.cita {
+  text-decoration: none;
+}
+
+.formPelu {
+  border: solid rgba(0, 0, 0, 0.342) 1px;
+  width: 60%;
+  margin-right: 0;
+}
+/*# sourceMappingURL=styles.css.map */
