@@ -1,0 +1,42 @@
+@media  screen and (max-width: 425px) {
+    .margen{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .redes{
+        margin: 2px;
+    }
+    .botones{
+        justify-content: center;
+    }
+    .imgIn{
+        width: 100%;
+    }
+    .lista{
+        margin-left: 80px;
+    }
+}
+@media  screen and (min-width: 768px) {
+    .margen{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .redes{
+        margin: 2px;
+    }
+    .lista{
+        margin-left: 30px;
+    }
+}
+@media  screen and (min-width: 1024px) {
+    .margen{
+        justify-content: end;
+        margin-left: 100px;
+    }
+    .redes{
+        margin: 8px;
+    }
+    .lista{
+        margin-left: 90px;
+    }
+}

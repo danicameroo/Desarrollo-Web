@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peluqueria | Madagaskar</title>
+    <title>Peluquería | Madagaskar</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&family=STIX+Two+Text:ital,wght@1,600&display=swap" rel="stylesheet">
@@ -17,18 +17,16 @@
     <header>
       <div class="row align-items-center">
         <div class="col-md-2">
-          <img src="../multimedia/logo.png" class="logoPages p-2 text-end" alt="logo">
+          <img src="../multimedia/logo.png" class="logoPages text-end" alt="logo">
         </div>
-        <div class="col-md-5 ">
-          <h5 class="titulo">En Madagaskar somos amigos de tu mejor amigo</h5>
+        <div class="col-md-7">
+          <h4 class="titulo margen">En Madagaskar somos amigos de tu mejor amigo</h4>
         </div>
-        <div class="col-md-3 text-end">
-          <a href="https://www.instagram.com/?hl=es"><img class="m-2" src="../multimedia/instagram.png" alt="Logo instagram"></a>
-          <a href="https://www.google.com/intl/es-419/gmail/about/"><img class="m-2" src="../multimedia/gmail.png" alt="Logo Gmail"></a>
-          <a href="https://web.whatsapp.com/"><img class="m-2" src="../multimedia/whatsapp.png" alt="Logo Whatsapp"></a>
-        </div>
-        <div class="col-md-2 text-start parrafo">
-          <p>@mimadagaskar</p>
+        <div class="col-md-3">
+          <a href="https://instagram.com/mimadagaskar?utm_medium=copy_link"><img class="redes" src="../multimedia/instagram.png" alt="Logo instagram"></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCBBXkXRVSqhjTBCJthRwbBFSKXTDlBxXKHnXrXRFQGCzrMFPmWGsbFkKpdTPQMjHSbQBB"><img class="redes" src="../multimedia/gmail.png" alt="Logo Gmail"></a>
+          <a href="https://api.whatsapp.com/send/?phone=584144250547&text&app_absent=0"><img class="redes" src="../multimedia/whatsapp.png" alt="Logo Whatsapp"></a>
+          <a href="./peluqueria.html#formP"><button type="button" class="btn btn-light m-1">Pide tu cita ahora</button></a>
         </div>
       </div>
       <nav class="navbar navbar-expand-lg navbar-light menu">
@@ -42,7 +40,7 @@
                 <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./peluqueria.html">Peluqueria</a>
+                <a class="nav-link active" aria-current="page" href="./peluqueria.html">Peluquería</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./Veterinaria.html">Veterinaria</a>
@@ -61,7 +59,7 @@
     <main>
       <div class="container">
         <div class="row justify-content-center m-4">
-          <h1 class="titulo">Peluqueria para tu mascota</h1>
+          <h1 class="titulo">Peluquería para tu mascota</h1>
           <div class="col-md-12">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
@@ -93,7 +91,7 @@
         </div>
         <div class="row align-items-center m-4">
           <div class="col-md-4 p-0">
-              <p class="parrafo p-4">El servicio de peluqueria incluye, baño, corte de pelo, cepillado dental, corte de uñas limpieza del conducto auditivo, despeje del vello auditivo despeje del area genital y anal, perfume y adorno</p>          
+              <p class="parrafo p-4">El servicio de peluquería incluye, baño, corte de pelo, cepillado dental, corte de uñas, limpieza del conducto auditivo, despeje del área genital y anal, perfume y adorno</p>          
           </div>
           <div class="col-md-8 p-0">
             <table class="table table-warning table-hover" id="precio"> 
@@ -109,7 +107,7 @@
                 <tr>
                   <th scope="row">1</th>
                   <td>Pequeño</td>
-                  <td>Yorkshire Terrie, Shih Tzu, Chihuahua, Beagle, Schnauzer miniatura, o razas similares</td>
+                  <td>Yorkshire Terrier, Shih Tzu, Chihuahua, Beagle, Schnauzer miniatura, o razas similares</td>
                   <td>5$  a  6$</td></td>
                 </tr>
                 <tr>
@@ -129,29 +127,61 @@
           </div>
         </div>
       </div>
+      <div class="container w-50 borde">
+        <div class="row">
+            <form class="row needs-validation g-3 p-2" id="formP" action="https://formspree.io/f/xwkazean"
+            method="POST">
+              <h2 class="titulo">Pide tu cita ahora</h2>
+              <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombre del dueño</label>
+                <input type="text" name="nombre" class="form-control" id="nombre" required>
+              </div>
+              <div class="col-md-6">
+                <label for="mail" class="form-label">Correo Electrónico</label>
+                <input type="text" name="mail" class="form-control" id="mail" required>
+              </div>
+              <div class="col-md-6">
+                <label for="numero" class="form-label">Número Telefónico</label>
+                <input type="text" name="numero" class="form-control" id="numero" required>
+              </div>
+              <div class="col-md-6">
+                <label for="fecha" class="form-label">Fecha de la cita</label>
+                <input type="text" name="fecha" class="form-control" id="fecha" required>
+              </div>
+              <div class="col-md-12">
+                <label for="mensaje" class="form-label">Nombre, tamaño y raza de la mascota</label>
+                <textarea name="mensaje" class="form-control" id="mensaje" required></textarea>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-secondary" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+      </div>
       <div class="container">
         <div class="card-group carta">
           <div class="card m-2">
             <a href="./extras.html#oferta"><img src="../multimedia/ofertas.jpg" class="card-img-top" alt="ofertas"></a>
               <div class="card-body">
                 <h5 class="card-title">Ofertas</h5>
-                <p class="card-text">Ve nuestras mejores ofertas en productos <a href="./extras.html#oferta">aqui</a></p>
+                <p class="card-text">Ve nuestras mejores ofertas en productos <a href="./extras.html#oferta">aquí
+                </a></p>
                 <p class="card-text"><small class="text-muted">Madagaskar, Todo en un solo lugar</small></p>
               </div>
           </div>
           <div class="card m-2">
             <a href="./extras.html#jornada"><img src="../multimedia/jornada.jpg" class="card-img-top" alt="jornadas"></a>
               <div class="card-body">
-                <h5 class="card-title">Jornada de Vacunacion</h5>
-                <p class="card-text">Esta atento a nuestras jornadas de vacunacion <a href="./extras.html#jornada">aqui</a></p>
+                <h5 class="card-title">Jornada de Vacunación</h5>
+                <p class="card-text">Esta atento a nuestras jornadas de vacunación <a href="./extras.html#jornada">aquí</a></p>
                 <p class="card-text"><small class="text-muted">Cuida de ellos</small></p>
               </div>
           </div>
           <div class="card m-2">
             <a href="./extras.html#info"><img src="../multimedia/info.png" class="card-img-top" alt="informacion"></a>
               <div class="card-body">
-                <h5 class="card-title">Informacion de interes</h5>
-                <p class="card-text">informacion de la que deberias estra atento <a href="./extras.html#info">aqui</a></p>
+                <h5 class="card-title">Información de interes</h5>
+                <p class="card-text">Información de la que deberias estra atento <a href="./extras.html#info">aquí</a></p>
                 <p class="card-text"><small class="text-muted">Somos amigos de tu mejor amigo</small></p>
               </div>
           </div>
@@ -169,7 +199,7 @@
             <a href="https://www.instagram.com/?hl=es"><img src="../multimedia/instagram.png" alt="Logo instagram"></a>
             <a href="https://www.google.com/intl/es-419/gmail/about/"><img src="../multimedia/gmail.png" alt="Logo Gmail"></a>
             <a href="https://web.whatsapp.com/"><img src="../multimedia/whatsapp.png" alt="Logo Whatsapp"></a>
-            <h3 class="parrafo m-2">Estamos ubicados en Valencia, San Diego de Lunes a Sabado de 9am a 6pm. Reserva tu cita contactandonos</h3>
+            <h3 class="parrafo m-2">Estamos ubicados en Valencia, San Diego de Lunes a Sábado de 9am a 6pm. Reserva tu cita contactándonos</h3>
           </div>
         </div>
       </div>
@@ -177,7 +207,7 @@
         <div class="col-md-4">
           <h3 class="parrafo"><strong>Servicios</strong></h3>
           <ul class="lista text-start">
-            <li><a href="./peluqueria.html">Peluqueria</a></li>
+            <li><a href="./peluqueria.html">Peluquería</a></li>
             <li><a href="./Veterinaria.html">Veterinaria</a></li>
             <li><a href="./productos.html">Venta de productos</a></li>
             <li><a href="./farmacia.html">Venta de medicamentos</a></li>
@@ -187,7 +217,7 @@
           <h3 class="parrafo"><strong>Ir para:</strong></h3>
           <ul class="lista text-start">
             <li><a href="../index.html#nosotros">Sobre nosotros</a></li>
-            <li><a href="./peluqueria.html#precio">Precios de peluqueria</a></li>
+            <li><a href="./peluqueria.html#precio">Precios de peluquería</a></li>
             <li><a href="./Veterinaria.html#vacuna">Vacunas</a></li>
             <li><a href="./productos.html#pro">Productos</a></li>
             <li><a href="./farmacia.html#far">Medicamentos</a></li>
@@ -197,8 +227,8 @@
           <h3 class="parrafo"><strong>Extras</strong></h3>
           <ul class="lista text-start">
             <li><a href="./extras.html#oferta">Ofertas</a></li>
-            <li><a href="./extras.html#jornada">Jornada de vacunacion</a></li>
-            <li><a href="./extras.html#info">Informacion importante</a></li>
+            <li><a href="./extras.html#jornada">Jornada de vacunación</a></li>
+            <li><a href="./extras.html#info">Información importante</a></li>
           </ul>
         </div>
       </div>

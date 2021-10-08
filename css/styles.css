@@ -41,6 +41,59 @@ nav {
   border-top: 2px #f59236 solid;
 }
 
+@media screen and (max-width: 425px) {
+  .margen {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+  }
+  .redes {
+    margin: 2px;
+  }
+  .botones {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .imgIn {
+    width: 100%;
+  }
+  .lista {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .margen {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+  }
+  .redes {
+    margin: 2px;
+  }
+  .lista {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .margen {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    margin-left: 100px;
+  }
+  .redes {
+    margin: 8px;
+  }
+  .lista {
+    margin-left: 90px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -55,13 +108,11 @@ nav {
 .titulo {
   color: #d46217;
   font-family: "STIX Two Text", serif;
-  text-transform: capitalize;
 }
 
 .parrafo {
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
-  text-transform: capitalize;
 }
 
 .imgIn {
@@ -85,16 +136,32 @@ nav {
 
 .lista {
   list-style: none;
-  margin-left: 150px;
 }
 
 .cita {
   text-decoration: none;
 }
 
-.formPelu {
-  border: solid rgba(0, 0, 0, 0.342) 1px;
-  width: 60%;
-  margin-right: 0;
+.margen {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-left: 150px;
+  padding: 30px;
+}
+
+.redes {
+  margin: 10px;
+}
+
+.margin {
+  margin-top: 50px;
+}
+
+.fondo {
+  background: url(../multimedia/jv.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /*# sourceMappingURL=styles.css.map */

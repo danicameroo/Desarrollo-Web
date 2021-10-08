@@ -1,6 +1,7 @@
 @import "variables";
 @import "header";
 @import "footer";
+@import "responsive";
 
 *{
     margin: 0;
@@ -13,12 +14,10 @@
 .titulo{
     color: $colorTitulo;
     font-family: $fontTitulo;
-    text-transform: $transformTitulo;
 }
 .parrafo{
     font-family: $fontParrafo;
     font-size: $sizeParrafo;
-    text-transform: $transformTitulo;
 }
 .imgIn{
     width: $widthImg;
@@ -37,13 +36,24 @@
 }
 .lista{
     list-style: none;
-    margin-left: 150px;
 }
 .cita{
     text-decoration: none;
 }
-.formPelu{
-    border: solid rgba(0, 0, 0, 0.342) 1px;
-    width: 60%;
-    margin-right: 0;
+.margen{
+    justify-content: end;
+    margin-left: 150px;
+    padding: 30px;
+}
+.redes{
+    margin: 10px;
+}
+.margin{
+    margin-top: 50px;
+}
+.fondo{
+    background: url(../multimedia/jv.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center ;
 }
