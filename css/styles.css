@@ -164,4 +164,9 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
 }
+.jorText{
+    font-weight: 900;
+    font-size: 22px;
+    margin-top: 15px;
+}
 /*# sourceMappingURL=styles.css.map */
