@@ -46,7 +46,7 @@ nav {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .redes {
     margin: 2px;
@@ -69,7 +69,7 @@ nav {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-left: 0;
+    margin-left: 10px;
   }
   .redes {
     margin: 2px;
@@ -146,7 +146,6 @@ nav {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  margin-left: 150px;
   padding: 30px;
 }
 
