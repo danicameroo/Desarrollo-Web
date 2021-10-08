@@ -46,7 +46,7 @@ nav {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-left: 0;
+    margin-left: 20px;
   }
   .redes {
     margin: 2px;
